@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Lilita+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navContainer {
+    background-color:#191919;
+    height: 10vh;
+    display: flex;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.email{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.email i{
+    color: #a91316;
+}
+.email p{
+    color: #8b8b8d;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.phone i{
+    color: #a91316;
+}
+.phone p{
+    color:#8b8b8d;
+    font-size: 15px;
+}
+
+
+.navLinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+}
+.links{
+    color: #a6a2a6;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 10%;  
+}
+.links li{
+    list-style: none;
+}
+
+
+.navContainer2{
+    background-color:#252525;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.navContainer2 P{
+    color:#fefbf2;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30PX;
+    margin-left: 3%;
+}
+.navLinks2{
+    width: 89%;
+    display: flex;
+    justify-content: flex-end;
+}
+.links2{
+    color: #dfdddf;
+    font-family: 'Chakra Petch', sans-serif; 
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 60%; 
+}
+.links2 li{
+    list-style: none;
+}
